@@ -2,13 +2,12 @@ const Hero = () => {
   return (
     <section className='hero' id='home'>
       <div className='hero-banner'>
-        <h1>backroads app</h1>
+        <h1>Guangyao's Portfolio</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          explicabo debitis est autem dicta.
+          Crafting immersive Web experiences with Fullstack Web Technologies, including React, Typescript, TailwindCSS, Node.js, Express, MongoDB, and more.
         </p>
         <a href='#tours' className='btn hero-btn '>
-          explore tours
+          Explore My Work
         </a>
       </div>
     </section>

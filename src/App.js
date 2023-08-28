@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Tours from './components/Tours';
+import ResumePDF from './components/ResumePDF'; // Import the ResumePDF component
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
+      {/* <Services /> */}
+      <ResumePDF />
       <Tours />
       <Footer />
     </React.Fragment>
