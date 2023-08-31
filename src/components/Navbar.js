@@ -1,4 +1,6 @@
-import logo from '../images/logo.svg'
+// import logo from '../images/logo.svg'
+// import logo from '../images/personal/Free SVG Logo 6 (by FreeLogo.me).svg'
+import logo from '../images/personal/logo.png'
 import { pageLinks, socialLinks } from '../data'
 import PageLinks from './PageLinks'
 import SocialLink from './SocialLink'
@@ -19,7 +21,11 @@ const Navbar = () => {
       <div className={`menu-backdrop ${isMenuOpen ? 'show-menu' : ''}`} onClick={closeMenu}></div>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} className='nav-logo' alt='backroads' />
+          <img
+            src={logo}
+            className='nav-logo'
+            alt='backroads'
+            style={{ width: '6rem', height: 'auto' }} />
           <button
             type='button'
             className='nav-toggle'

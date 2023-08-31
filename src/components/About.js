@@ -1,10 +1,11 @@
-import aboutImg from '../images/about.jpeg';
+// import aboutImg from '../images/about.jpeg';
+import aboutImg from '../images/personal/profile-pic.jpg'
 import Title from './Title';
 
 const About = () => {
   return (
     <section className='section' id='about'>
-      <Title title='about' subTitle='us' />
+      <Title title='about' subTitle='me' />
 
       <div className='section-center about-center'>
         <div className='about-img'>
@@ -15,6 +16,22 @@ const About = () => {
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
+            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
+            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
+            unde dolor?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
+            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
+            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
+            unde dolor?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
+            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
+            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
           <p>

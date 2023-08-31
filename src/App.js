@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      {/* <Services /> */}
+      <Services />
       <ResumePDF />
       <Tours />
       <Footer />

@@ -17,8 +17,11 @@ const Tour = ({ image, date, title, info, location, duration, cost }) => {
             </span>
             {location}
           </p>
-          <p>from ${cost}</p>
-          <p>{duration} days</p>
+          {/* <p>from ${cost}</p> */}
+          {/* <p>{duration} days</p> */}
+          <a href='#' className='btn'>
+            Details
+          </a>
         </div>
       </div>
     </article>

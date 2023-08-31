@@ -9,11 +9,19 @@ export const pageLinks = [
   { id: 3, href: '#services', text: 'services' },
   { id: 4, href: '#tours', text: 'tours' },
 ];
+// export const socialLinks = [
+//   { id: 1, href: 'https://www.twitter.com', icon: 'fab fa-facebook' },
+//   { id: 2, href: 'https://www.twitter.com', icon: 'fab fa-twitter' },
+//   { id: 3, href: 'https://www.twitter.com', icon: 'fab fa-squarespace' },
+// ];
 export const socialLinks = [
-  { id: 1, href: 'https://www.twitter.com', icon: 'fab fa-facebook' },
-  { id: 2, href: 'https://www.twitter.com', icon: 'fab fa-twitter' },
-  { id: 3, href: 'https://www.twitter.com', icon: 'fab fa-squarespace' },
+  { id: 1, href: 'https://www.twitter.com', icon: 'fab fa-facebook', text: '' },
+  { id: 2, href: 'https://www.twitter.com', icon: 'fab fa-twitter', text: '' },
+  { id: 3, href: 'https://www.squarespace.com', icon: 'fab fa-squarespace', text: '' },
+  { id: 4, href: 'tel:+1234567890', icon: 'fas fa-phone', text: '' },
+  { id: 5, href: 'mailto:example@example.com', icon: 'fas fa-envelope', text: '' },
 ];
+
 
 export const services = [
   {
