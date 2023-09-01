@@ -25,7 +25,7 @@ const Navbar = () => {
             src={logo}
             className='nav-logo'
             alt='backroads'
-            style={{ width: '6rem', height: 'auto' }} />
+          />
           <button
             type='button'
             className='nav-toggle'

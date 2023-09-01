@@ -3,11 +3,13 @@ import tour2 from './images/tour-2.jpeg';
 import tour3 from './images/tour-3.jpeg';
 import tour4 from './images/tour-4.jpeg';
 
+import MSCIProject from './images/projects/MSCI-poster.png'
+
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
-  { id: 3, href: '#services', text: 'services' },
-  { id: 4, href: '#tours', text: 'tours' },
+  { id: 3, href: '#resume', text: 'resume' },
+  { id: 4, href: '#projects', text: 'projects' },
 ];
 // export const socialLinks = [
 //   { id: 1, href: 'https://www.twitter.com', icon: 'fab fa-facebook' },
@@ -15,11 +17,11 @@ export const pageLinks = [
 //   { id: 3, href: 'https://www.twitter.com', icon: 'fab fa-squarespace' },
 // ];
 export const socialLinks = [
-  { id: 1, href: 'https://www.twitter.com', icon: 'fab fa-facebook', text: '' },
-  { id: 2, href: 'https://www.twitter.com', icon: 'fab fa-twitter', text: '' },
-  { id: 3, href: 'https://www.squarespace.com', icon: 'fab fa-squarespace', text: '' },
-  { id: 4, href: 'tel:+1234567890', icon: 'fas fa-phone', text: '' },
-  { id: 5, href: 'mailto:example@example.com', icon: 'fas fa-envelope', text: '' },
+  { id: 1, href: 'https://www.linkedin.com/in/dave-guangyao-li/', icon: 'fab fa-linkedin', text: '' },
+  { id: 2, href: 'https://github.com/Dave-Guangyao-Li', icon: 'fab fa-github', text: '' },
+  { id: 3, href: 'https://twitter.com/Dave_GY_Li', icon: 'fab fa-twitter', text: '' },
+  { id: 4, href: 'tel:+1 3417669659', icon: 'fas fa-phone', text: '' },
+  { id: 5, href: 'mailto:dave_guangyao_li@outlook.com', icon: 'fas fa-envelope', text: '' },
 ];
 
 
@@ -85,4 +87,48 @@ export const tours = [
     duration: 20,
     cost: 3300,
   },
+];
+
+
+export const projects = [
+  {
+    id: 1,
+    image: MSCIProject,
+    title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
+    info: [`Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow.Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms`, `Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%`, `Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection zaccuracy by 25% with less false alerts and lowering the cost of inspecting suspicious data.`],
+    keywords: ['html', 'javascript', 'css', 'html', 'javascript', 'css', 'html', 'javascript', 'css'],
+    link: 'https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing'
+  },
+  {
+    id: 2,
+    image: MSCIProject,
+    title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
+    info: [`Anomaly Detection Workflow`],
+    keywords: ['html', 'javascript'],
+    link: 'https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing'
+  },
+  {
+    id: 3,
+    image: MSCIProject,
+    title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
+    info: [`Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow.Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms`, `Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%`, `Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection zaccuracy by 25% with less false alerts and lowering the cost of inspecting suspicious data.`],
+    keywords: ['html', 'javascript', 'css', 'html', 'javascript', 'css', 'html', 'javascript', 'css'],
+    link: 'https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing'
+  },
+  {
+    id: 4,
+    image: MSCIProject,
+    title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
+    info: [`Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow.Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms`, `Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%`, `Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection zaccuracy by 25% with less false alerts and lowering the cost of inspecting suspicious data.`],
+    keywords: ['html', 'javascript', 'css', 'html', 'javascript', 'css', 'html', 'javascript', 'css'],
+    link: 'https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing'
+  },
+  {
+    id: 5,
+    image: MSCIProject,
+    title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
+    info: [`Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow.Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms`, `Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%`, `Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection zaccuracy by 25% with less false alerts and lowering the cost of inspecting suspicious data.`],
+    keywords: ['html', 'javascript', 'css', 'html', 'javascript', 'css', 'html', 'javascript', 'css'],
+    link: 'https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing'
+  }
 ];

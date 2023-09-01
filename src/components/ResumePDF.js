@@ -2,7 +2,7 @@ import React from 'react';
 import Title from './Title';
 const ResumePDF = () => {
     return (
-        <section id='resume' className='resume'>
+        <section className='resume' id='resume' >
             <Title title='updated' subTitle='Resume' />
             <div className='pdf-container'>
                 <iframe

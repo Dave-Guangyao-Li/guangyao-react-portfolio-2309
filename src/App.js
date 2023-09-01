@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Tours from './components/Tours';
 import ResumePDF from './components/ResumePDF'; // Import the ResumePDF component
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
+      {/* <Services /> */}
       <ResumePDF />
-      <Tours />
+      {/* <Tours /> */}
+      <Projects />
       <Footer />
     </React.Fragment>
   );
