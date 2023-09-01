@@ -1,6 +1,7 @@
 // import aboutImg from '../images/about.jpeg';
 import aboutImg from '../images/personal/profile-pic.jpg'
 import Title from './Title';
+import { aboutInfo } from '../data';
 
 const About = () => {
   return (
@@ -12,35 +13,12 @@ const About = () => {
           <img src={aboutImg} className='about-photo' alt='awesome beach' />
         </div>
         <article className='about-info'>
-          <h3>explore the difference</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
-          </p>
-          <a href='#' className='btn'>
-            read more
+          <h3>Welcome!</h3>
+          {aboutInfo.map((info) =>
+            <p>{info}</p>
+          )}
+          <a href='https://www.linkedin.com/in/dave-guangyao-li/' target="_blank" rel='noreferrer' className='btn'>
+            connect with me
           </a>
         </article>
       </div>

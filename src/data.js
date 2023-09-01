@@ -5,6 +5,10 @@ import tour4 from './images/tour-4.jpeg';
 
 import MSCIProject from './images/projects/MSCI-poster.png'
 
+export const aboutInfo = [
+  `My name is Guangyao Li. I'm a passionate front-end developer with expertise in Web development technologies like HTML, CSS, JavaScript, SQL, and React. I've successfully completed Web projects using frameworks such as NextJS, Django and Java SSM, showcasing my ability to deliver robust and dynamic applications.`,
+  `In addition to my proficiency in front-end development, I have a strong foundation in Python programming and experience in data engineering tasks. I'm well-versed in Python's scientific computing libraries like Numpy, Pandas, Matplotlib, Seaborn, and Scikit-learn, enabling me to handle complex data analysis and visualization tasks effectively.`, `Currently, I'm dedicated to expanding my knowledge in full-stack development. My goal is to become a developer who excels not only in solid programming skills but also in analytical thinking, enabling me to create immersive and user-centric experiences.`, `If you're seeking a front-end developer who is committed to crafting seamless user interfaces, leveraging data insights, and keeping up with the latest technologies, I'd love to connect and explore how I can contribute to your team's success.`]
+
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
@@ -125,6 +129,30 @@ export const projects = [
   },
   {
     id: 5,
+    image: MSCIProject,
+    title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
+    info: [`Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow.Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms`, `Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%`, `Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection zaccuracy by 25% with less false alerts and lowering the cost of inspecting suspicious data.`],
+    keywords: ['html', 'javascript', 'css', 'html', 'javascript', 'css', 'html', 'javascript', 'css'],
+    link: 'https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing'
+  },
+  {
+    id: 6,
+    image: MSCIProject,
+    title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
+    info: [`Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow.Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms`, `Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%`, `Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection zaccuracy by 25% with less false alerts and lowering the cost of inspecting suspicious data.`],
+    keywords: ['html', 'javascript', 'css', 'html', 'javascript', 'css', 'html', 'javascript', 'css'],
+    link: 'https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing'
+  },
+  {
+    id: 7,
+    image: MSCIProject,
+    title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
+    info: [`Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow.Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms`, `Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%`, `Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection zaccuracy by 25% with less false alerts and lowering the cost of inspecting suspicious data.`],
+    keywords: ['html', 'javascript', 'css', 'html', 'javascript', 'css', 'html', 'javascript', 'css'],
+    link: 'https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing'
+  },
+  {
+    id: 8,
     image: MSCIProject,
     title: 'Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology',
     info: [`Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow.Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms`, `Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%`, `Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection zaccuracy by 25% with less false alerts and lowering the cost of inspecting suspicious data.`],

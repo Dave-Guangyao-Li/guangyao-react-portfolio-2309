@@ -341,7 +341,7 @@ Featured Tours
 }
 
 .tour-info-content {
-  max-height: 90px; /* Set initial max height for content */
+  max-height: 120px; /* Set initial max height for content */
   overflow: scroll;
   transition: max-height 0.3s ease; /* Add a smooth transition for expanding/collapsing */
 }
@@ -668,3 +668,40 @@ Resume
 }
 
 /* ... your existing styles ... */
+/*pagination*/
+/* index.css */
+
+/* index.css */
+
+/* Add this CSS to your styles */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  border: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  /* background-color: var(--clr-grey-9); */
+  color: var(--clr-grey-5);
+  transition: color 0.3s;
+  box-shadow: var(--light-shadow);
+}
+
+.page-link:hover {
+  background-color: var(--clr-grey-10);
+}
+
+.page-item.active .page-link {
+  background-color: var(--clr-primary-5);
+  color: var(--clr-white);
+  border: 1px solid var(--clr-primary-5);
+}

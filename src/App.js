@@ -17,7 +17,7 @@ function App() {
       {/* <Services /> */}
       <ResumePDF />
       {/* <Tours /> */}
-      <Projects />
+      <Projects projectsPerPage={3} />
       <Footer />
     </React.Fragment>
   );
