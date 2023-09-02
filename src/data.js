@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 import tour1 from './images/tour-1.jpeg';
 import tour2 from './images/tour-2.jpeg';
 import tour3 from './images/tour-3.jpeg';
@@ -96,7 +98,7 @@ export const tours = [
 
 export const projects = [
   {
-    "id": 1,
+    "id": uuidv4(),
     "image": "guangyao-react-portfolio-2309",
     "title": "React Responsive Portfolio Website",
     "info": [
@@ -106,7 +108,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/guangyao-react-portfolio-2309"
   },
   {
-    "id": 2,
+    "id": uuidv4(),
     "image": "medical-coding-copilot",
     "title": "MediCode AI Copilot Chatbot",
     "info": [
@@ -116,7 +118,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/medical-coding-copilot"
   },
   {
-    "id": 3,
+    "id": uuidv4(),
     "image": "Sentient",
     "title": "Sentient Financial Platform",
     "info": [
@@ -126,7 +128,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/Sentient"
   },
   {
-    "id": 4,
+    "id": uuidv4(),
     "image": "Hexagon-App",
     "title": "Hexagon Movies and TV Series Info",
     "info": [
@@ -136,7 +138,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/Hexagon-App"
   },
   {
-    "id": 5,
+    "id": uuidv4(),
     "image": "React-task-manager-Dave-Guangyao-Li",
     "title": "React Task Manager App",
     "info": [
@@ -146,7 +148,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/React-task-manager-Dave-Guangyao-Li"
   },
   {
-    "id": 6,
+    "id": uuidv4(),
     "image": "movie-pitcher-openai",
     "title": "Movie Pitch Generator with ChatGPT and DALL-E",
     "info": [
@@ -156,7 +158,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/movie-pitcher-openai"
   },
   {
-    "id": 7,
+    "id": uuidv4(),
     "image": "simple-dalle-clone",
     "title": "DALL-E Clone Website",
     "info": [
@@ -166,7 +168,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/simple-dalle-clone"
   },
   {
-    "id": 8,
+    "id": uuidv4(),
     "image": "fine-tuned-GPT-chatbot",
     "title": "Fine-Tuned GPT Chatbot",
     "info": [
@@ -176,7 +178,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/fine-tuned-GPT-chatbot"
   },
   {
-    "id": 9,
+    "id": uuidv4(),
     "image": "expense-tracker-nextjs-firebase-tailwind",
     "title": "NextJS Expense Tracker",
     "info": [
@@ -186,7 +188,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/expense-tracker-nextjs-firebase-tailwind"
   },
   {
-    "id": 10,
+    "id": uuidv4(),
     "image": "car-sales-site-scrimba",
     "title": "Cars Sales Website",
     "info": [
@@ -196,7 +198,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/car-sales-site-scrimba"
   },
   {
-    "id": 11,
+    "id": uuidv4(),
     "image": "data-analytics-dashboard",
     "title": "Analytics Dashboard",
     "info": [
@@ -206,7 +208,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/data-analytics-dashboard"
   },
   {
-    "id": 12,
+    "id": uuidv4(),
     "image": "react-weather-app",
     "title": "React Weather Forecast",
     "info": [
@@ -216,7 +218,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/react-weather-app"
   },
   {
-    "id": 13,
+    "id": uuidv4(),
     "image": "GithubProfileCard",
     "title": "GitHub Profile Card",
     "info": [
@@ -226,7 +228,7 @@ export const projects = [
     "link": "https://github.com/Dave-Guangyao-Li/GithubProfileCard"
   },
   {
-    "id": 14,
+    "id": uuidv4(),
     "image": MSCIProject,
     "title": "Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology",
     "info": [
@@ -238,7 +240,7 @@ export const projects = [
     "link": "https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing"
   },
   {
-    "id": 15,
+    "id": uuidv4(),
     "image": "The-Lagging-Effect-of-COVID-19-vaccines",
     "title": "The Lagging Effect of COVID-19 Vaccines on the Case-Fatality Rate in California",
     "info": [
@@ -248,7 +250,7 @@ export const projects = [
     "link": "https://drive.google.com/file/d/10J5_n_VqubL8XDpM2HQ-ljo2LlrsDJdp/view?usp=sharing"
   },
   {
-    "id": 16,
+    "id": uuidv4(),
     "image": "Game-Prediction-for-Golden-State-Warriors",
     "title": "Game Prediction for the Golden State Warriors in the NBA Regular Season",
     "info": [
