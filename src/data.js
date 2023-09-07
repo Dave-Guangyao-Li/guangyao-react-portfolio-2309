@@ -5,10 +5,15 @@ import tour2 from './images/tour-2.jpeg';
 import tour3 from './images/tour-3.jpeg';
 import tour4 from './images/tour-4.jpeg';
 
+
+// import all projects pics
 import MSCIProject from './images/projects/MSCI-poster.png'
 import guangyaoReactPortfolio from './images/projects/guangyao-react-portfolio.png'
 import medicalCodingCopilot from './images/projects/mediCodeCopilot.png'
 import sentient from "./images/projects/sentient-analysis-page.jpg"
+import hexagonApp from "./images/projects/hexagon-app.png"
+import ReactTaskManager from "./images/projects/react-task-manager.png"
+import moviePitcherOpenAI from "./images/projects/movie-pitcher-openAI.png"
 
 export const aboutInfo = [
   `My name is Guangyao Li. I'm a passionate front-end developer with expertise in Web development technologies like HTML, CSS, JavaScript, SQL, and React. I've successfully completed Web projects using frameworks such as NextJS, Django and Java SSM, showcasing my ability to deliver robust and dynamic applications.`,
@@ -136,33 +141,45 @@ export const projects = [
   },
   {
     "id": uuidv4(),
-    "image": "Hexagon-App",
+    "image": hexagonApp,
     "title": "Hexagon Movies and TV Series",
     "info": [
-      "Created Hexagon, an app for movies and TV series information."
+      "Led a 5-person team in designing and implementing a mobile-responsive web app using React JS and Material UI for movies and TV shows information search.", "Developed a convenient platform for movie and TV show enthusiasts to discover their favorite titles, including trending titles, browsing basic information, genre-based filtering, searching, and adding titles to a favorite list.", "Integrated The Movie Database (TMDB) API from the Movie Database Project to fetch relevant data for the app.", "Led the team in solving technical challenges and ensuring a seamless user experience. Successfully guided the team to deliver a high-quality app that received a high score during the final presentation."
     ],
-    "keywords": ["Movies", "TV Series", "Information"],
+    "keywords": ["React.js", "RESTful API", "JavaScript", "LocalStorage", "HTML", "CSS", "Material UI"],
     "link": "https://github.com/Dave-Guangyao-Li/Hexagon-App"
   },
   {
     "id": uuidv4(),
-    "image": "React-task-manager-Dave-Guangyao-Li",
-    "title": "React Task Manager App",
+    "image": MSCIProject,
+    "title": "Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology",
     "info": [
-      "Developed a task manager app using React."
+      "Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow. Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms",
+      "Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%",
+      "Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection accuracy by 25% with fewer false alerts and lowering the cost of inspecting suspicious data."
     ],
-    "keywords": ["React", "Task Manager"],
-    "link": "https://github.com/Dave-Guangyao-Li/React-task-manager-Dave-Guangyao-Li"
+    "keywords": ["Data Analytics", "Python", "Data Engineering", "Machine Learning", "Statistics", "Javascript", "Numpy", "Pandas"],
+    "link": "https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing"
   },
   {
     "id": uuidv4(),
-    "image": "movie-pitcher-openai",
+    "image": moviePitcherOpenAI,
     "title": "Movie Pitch Generator with ChatGPT and DALL-E",
     "info": [
-      "Designed a movie pitch generator using ChatGPT and DALL-E."
+      "Use OpenAI's textCompletion API and createImage API to generate movie pitch", "generate movie sysnopsis with user's input of one-sentence movie concept, along with a movie poster, movie title, and cast for characters.", "Customize model request arguments to get better results."
     ],
-    "keywords": ["Movie Pitch", "ChatGPT", "DALL-E"],
+    "keywords": ["React", "ChatGPT", "DALL-E", "OpenAI", "AI", "JavaScript"],
     "link": "https://github.com/Dave-Guangyao-Li/movie-pitcher-openai"
+  },
+  {
+    "id": uuidv4(),
+    "image": ReactTaskManager,
+    "title": "React Task Manager App",
+    "info": [
+      "Developed a task manager app using React. Persist data in the local storage", "Update, add new tasks, delete existing tasks and show finished task count"
+    ],
+    "keywords": ["React", "HTML", "CSS", "Task Manager", "localStorage"],
+    "link": "https://github.com/Dave-Guangyao-Li/React-task-manager-Dave-Guangyao-Li"
   },
   {
     "id": uuidv4(),
@@ -233,18 +250,6 @@ export const projects = [
     ],
     "keywords": ["GitHub", "Profile Card"],
     "link": "https://github.com/Dave-Guangyao-Li/GithubProfileCard"
-  },
-  {
-    "id": uuidv4(),
-    "image": MSCIProject,
-    "title": "Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology",
-    "info": [
-      "Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow. Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms",
-      "Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%",
-      "Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection accuracy by 25% with fewer false alerts and lowering the cost of inspecting suspicious data."
-    ],
-    "keywords": ["Data Analytics", "Python", "Data Engineering", "Machine Learning", "Statistics", "Javascript", "Numpy", "Pandas"],
-    "link": "https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing"
   },
   {
     "id": uuidv4(),
