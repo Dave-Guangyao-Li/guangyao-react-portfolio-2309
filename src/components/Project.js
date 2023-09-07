@@ -40,7 +40,7 @@ const Project = ({ image, title, info, keywords, link }) => {
                     ))}
                 </div>
                 <div className='tour-btn'>
-                    <a href={link} className='btn'>
+                    <a href={link} className='btn' target='_blank' rel='noreferrer'>
                         Details
                     </a>
                 </div>
