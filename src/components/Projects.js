@@ -21,7 +21,7 @@ const Projects = ({ projectsPerPage }) => {
 
             <div className='section-center featured-center'>
                 {currentProjects.map((project) => {
-                    console.log(project.id, project.title)
+                    // console.log(project.id, project.title)
                     return <Project {...project} key={project.id} />
                 })}
             </div>

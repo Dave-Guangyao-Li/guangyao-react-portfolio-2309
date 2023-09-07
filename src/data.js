@@ -6,6 +6,9 @@ import tour3 from './images/tour-3.jpeg';
 import tour4 from './images/tour-4.jpeg';
 
 import MSCIProject from './images/projects/MSCI-poster.png'
+import guangyaoReactPortfolio from './images/projects/guangyao-react-portfolio.png'
+import medicalCodingCopilot from './images/projects/mediCodeCopilot.png'
+import sentient from "./images/projects/sentient-analysis-page.jpg"
 
 export const aboutInfo = [
   `My name is Guangyao Li. I'm a passionate front-end developer with expertise in Web development technologies like HTML, CSS, JavaScript, SQL, and React. I've successfully completed Web projects using frameworks such as NextJS, Django and Java SSM, showcasing my ability to deliver robust and dynamic applications.`,
@@ -99,38 +102,42 @@ export const tours = [
 export const projects = [
   {
     "id": uuidv4(),
-    "image": "guangyao-react-portfolio-2309",
+    "image": guangyaoReactPortfolio,
     "title": "React Responsive Portfolio Website",
     "info": [
-      "Created a responsive portfolio website using React."
+      "Created a portfolio website using React.",
+      "Mobile-first and responsive design",
+      "Implement pagination without third party library."
     ],
-    "keywords": ["React", "Portfolio", "Responsive Design"],
+    "keywords": ["React", "HTML", "CSS", "JavaScript", "Responsive Design"],
     "link": "https://github.com/Dave-Guangyao-Li/guangyao-react-portfolio-2309"
   },
   {
     "id": uuidv4(),
-    "image": "medical-coding-copilot",
+    "image": medicalCodingCopilot,
     "title": "MediCode AI Copilot Chatbot",
     "info": [
-      "Developed an AI copilot chatbot for medical coding."
+      "Developed an AI copilot chatbot for medical coding.",
+      "AI copilot for medical coders to minimize errors, maximize efficiency, and boost revenue of healthcare provider office. Helps the healthcare professional determine the most accurate and comprehensive set of codes, so the claim made to the payer is not denied and to boot revenue.",
+      "Built with JavaScript, React, TailwindCSS, MaterialUI, integrated with GPT-4 chat completion API empowered with well-designed prompt."
     ],
-    "keywords": ["Chatbot", "AI", "Medical Coding"],
+    "keywords": ["React", "JavaScript", "TailwindCSS", "MaterialUI", "Chat-GPT", "OpenAI", "Chatbot", "AI", "Medical"],
     "link": "https://github.com/Dave-Guangyao-Li/medical-coding-copilot"
   },
   {
     "id": uuidv4(),
-    "image": "Sentient",
-    "title": "Sentient Financial Platform",
+    "image": sentient,
+    "title": "Sentient - A Financial Report Analysis platform",
     "info": [
-      "Built a financial platform called Sentient."
+      "Led full-stack development of the Web application to present analysis results. Utilized CSS and JavaScript for interactive design of the analysis result page.", "Implemented backend routing and organized Web page templates using Python Flask.Integrated front-end and back-end data through HTTP requests.", "Outcome: Successfully scraped and parsed the 10 - K Financial Reports of publicly traded companies, applied natural language processing techniques for data cleaning and analysis, and presented the analysis results on web pages."
     ],
-    "keywords": ["Financial", "Platform"],
+    "keywords": ["Finance", "JavaScript", "Full-Stack Development", "Flask", "Python", "RESTful WebServices"],
     "link": "https://github.com/Dave-Guangyao-Li/Sentient"
   },
   {
     "id": uuidv4(),
     "image": "Hexagon-App",
-    "title": "Hexagon Movies and TV Series Info",
+    "title": "Hexagon Movies and TV Series",
     "info": [
       "Created Hexagon, an app for movies and TV series information."
     ],
@@ -258,5 +265,25 @@ export const projects = [
     ],
     "keywords": ["NBA", "Golden State Warriors", "Game Prediction"],
     "link": "https://drive.google.com/file/d/1EGGuWsQZdI6PBZwJL-1pTGq43q-kf37K/view?usp=sharing"
+  },
+  {
+    "id": uuidv4(),
+    "image": "Turing-chat-bot",
+    "title": "Intelligent chatbot",
+    "info": [
+      "A intelligent chatbot web application with graphical interface. ", "Interact By calling speech-related API. Enabled user authentication and implemented UI using Python’s tkinter package.", "Used BaiduAI’s API for Speech Recognition and Synthesis to enable audio interaction with chatbot"
+    ],
+    "keywords": ["Python", "AI", "Speech Recognition", "API", "ChatBot"],
+    "link": "https://github.com/Dave-Guangyao-Li/Turing_chatting_bot_System"
+  },
+  {
+    "id": uuidv4(),
+    "image": "On-demand-music-search",
+    "title": "On-demand music search website",
+    "info": [
+      "A music website provides multiple features like songs collection, search, streaming and personalized recommendation.", "Music recommender system Developed with Python", "Django for back-end; MySQL for data persistent storage;  Collaborative Filtering Algorithm for songs recommendation."
+    ],
+    "keywords": ["Python", "SQL", "Django", "Collaborative Filtering", "Full-stack"],
+    "link": "https://github.com/Dave-Guangyao-Li/music"
   }
 ]
