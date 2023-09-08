@@ -14,6 +14,17 @@ import sentient from "./images/projects/sentient-analysis-page.jpg"
 import hexagonApp from "./images/projects/hexagon-app.png"
 import ReactTaskManager from "./images/projects/react-task-manager.png"
 import moviePitcherOpenAI from "./images/projects/movie-pitcher-openAI.png"
+import DALLEClone from "./images/projects/Dall-E-clone.png"
+import NextJSExpenseTracker from "./images/projects/NextJS Expense Tracker.png"
+import fineTunedChatbot from "./images/projects/fineTunedChatbot.png"
+import reactWeatherApp from "./images/projects/react-weather-app.png"
+import GithubProfileCard from "./images/projects/github-profile-card.png"
+import OnDemandMusicSearch from "./images/projects/music-on-demand-search.png"
+import TuringChatBot from "./images/projects/turing-chatbot.png"
+import LaggingEffectOfCovidVaccine from "./images/projects/lagging-effect-covid-vaccine.png"
+import GamePredictionGSW from "./images/projects/game-prediction-GSW.png"
+import CarSalesSite from "./images/projects/car-sales-site.png"
+import DataAnalyticsDashboard from "./images/projects/data-analytics-dashboard.png"
 
 export const aboutInfo = [
   `My name is Guangyao Li. I'm a passionate front-end developer with expertise in Web development technologies like HTML, CSS, JavaScript, SQL, and React. I've successfully completed Web projects using frameworks such as NextJS, Django and Java SSM, showcasing my ability to deliver robust and dynamic applications.`,
@@ -183,97 +194,108 @@ export const projects = [
   },
   {
     "id": uuidv4(),
-    "image": "simple-dalle-clone",
+    "image": DALLEClone,
     "title": "DALL-E Clone Website",
     "info": [
-      "Created a website that clones DALL-E."
+      "Created a website that can generate Text completion prompt with ChatGPT and create image according to text instruction with DALL-E API", " ave a serverless publicly available website that does not leak API key to the public."
     ],
-    "keywords": ["DALL-E", "Website Clone"],
+    "keywords": ["DALL-E", "OpenAI", "ChatGPT", "AI", "JavaScript", "HTML", "CSS", "Serverless"
+    ],
     "link": "https://github.com/Dave-Guangyao-Li/simple-dalle-clone"
   },
   {
     "id": uuidv4(),
-    "image": "fine-tuned-GPT-chatbot",
+    "image": fineTunedChatbot,
     "title": "Fine-Tuned GPT Chatbot",
     "info": [
-      "Developed a fine-tuned GPT chatbot."
+      "Developed a fine-tuned chatbot targeting specific service of a company, integrated with OpenAI's ChatGPT", "Use customized dataset as knowledge database and fine-tune chatbot based on our data to avoid hallucinations"
     ],
-    "keywords": ["GPT", "Chatbot"],
+    "keywords": ["ChatGPT", "Fine-tuning", "OpenAI", "AI", "Chatbot", "ReactJS", "JavaScript", "HTML", "CSS"],
     "link": "https://github.com/Dave-Guangyao-Li/fine-tuned-GPT-chatbot"
   },
   {
     "id": uuidv4(),
-    "image": "expense-tracker-nextjs-firebase-tailwind",
+    "image": NextJSExpenseTracker,
     "title": "NextJS Expense Tracker",
     "info": [
-      "Built an expense tracker using NextJS and Firebase Firestore, styled with TailwindCSS."
+      "Built an expense tracker using NextJS and Firebase Firestore, styled with TailwindCSS.",
+      "Showing items total prices and can add, update, remove items from the expense tracker. All data would be stored in the firebase data store and dynamically retrieved"
     ],
-    "keywords": ["NextJS", "Expense Tracker", "Firebase", "TailwindCSS"],
+    "keywords": ["NextJS", "Expense Tracker", "Firebase", "TailwindCSS", "JavaScript", "React", "Database"],
     "link": "https://github.com/Dave-Guangyao-Li/expense-tracker-nextjs-firebase-tailwind"
   },
   {
     "id": uuidv4(),
-    "image": "car-sales-site-scrimba",
-    "title": "Cars Sales Website",
+    "image": CarSalesSite,
+    "title": "Cars Sales Website Design",
     "info": [
-      "Developed a car sales website."
+      "Developed a car sales website.",
+      "From figma design to code. Followed mobile-first design. Responsive design that display well on bothe mobile and desktop devices"
     ],
-    "keywords": ["Car Sales", "Website"],
+    "keywords": ["Figma", "HTML", "CSS", "Responsive Design"],
     "link": "https://github.com/Dave-Guangyao-Li/car-sales-site-scrimba"
   },
   {
     "id": uuidv4(),
-    "image": "data-analytics-dashboard",
-    "title": "Analytics Dashboard",
+    "image": DataAnalyticsDashboard,
+    "title": "Analytics Dashboard Design",
     "info": [
-      "Created an analytics dashboard."
+      "Created an analytics dashboard.",
+      "From figma design to code. Followed mobile-first design. Responsive design that display well on bothe mobile and desktop devices"
     ],
-    "keywords": ["Analytics", "Dashboard"],
+    "keywords": ["Analytics", "Dashboard", "Figma", "HTML", "CSS", "Responsive Design"],
     "link": "https://github.com/Dave-Guangyao-Li/data-analytics-dashboard"
   },
   {
     "id": uuidv4(),
-    "image": "react-weather-app",
+    "image": reactWeatherApp,
     "title": "React Weather Forecast",
     "info": [
-      "Developed a weather forecast app using React."
+      "Developed a weather forecast app using React.", "Three components: search bar for geographical location; today’s weather forecast component accordion panels (title + collapsible details) to show the weather forecast in the next 5 days when being clicked "
     ],
-    "keywords": ["React", "Weather Forecast"],
+    "keywords": ["ReactJS", "API", "JavaScript", "HTML", "CSS"],
     "link": "https://github.com/Dave-Guangyao-Li/react-weather-app"
   },
   {
     "id": uuidv4(),
-    "image": "GithubProfileCard",
+    "image": GithubProfileCard,
     "title": "GitHub Profile Card",
     "info": [
-      "Created a GitHub profile card."
+      "Vanilla JS project. Use github api to get users info and display it on card (Profile pic, username, repos, intro, followers, etc.)"
     ],
-    "keywords": ["GitHub", "Profile Card"],
+    "keywords": ["GitHub", "API", "JavaScript", "HTML", "CSS"],
     "link": "https://github.com/Dave-Guangyao-Li/GithubProfileCard"
   },
   {
     "id": uuidv4(),
-    "image": "The-Lagging-Effect-of-COVID-19-vaccines",
+    "image": LaggingEffectOfCovidVaccine,
     "title": "The Lagging Effect of COVID-19 Vaccines on the Case-Fatality Rate in California",
     "info": [
-      "Analyze the lagging effect of COVID-19 vaccines on the case-fatality rate in California."
+      "Utilized COVID-19 datasets to analyze the impact of vaccination on the case-fatality rate in California.",
+      "Conducted feature engineering to determine the optimal lagging date window for vaccine data, identifying the strongest correlation with the fatality ratio.",
+      "Developed accurate regression models using linear models and decision tree models, evaluating performance with metrics such as R2, MSE, and MAE.",
+      "Provided valuable insights for government officials and healthcare providers, guiding informed decision- making and resource allocation.",
+      "Emphasized the importance of considering regional differences and socio - economic conditions when applying the model to other global areas."
     ],
-    "keywords": ["COVID-19", "Vaccines", "California", "Analysis"],
+    "keywords": ["Python", "Data analysis", "Regression modeling", "Feature engineering", "Linear models", "Decision tree models", "Model Performance evaluation"],
     "link": "https://drive.google.com/file/d/10J5_n_VqubL8XDpM2HQ-ljo2LlrsDJdp/view?usp=sharing"
   },
   {
     "id": uuidv4(),
-    "image": "Game-Prediction-for-Golden-State-Warriors",
+    "image": GamePredictionGSW,
     "title": "Game Prediction for the Golden State Warriors in the NBA Regular Season",
     "info": [
-      "Predicted game outcomes for the Golden State Warriors in the NBA regular season."
+      "Predicted game outcomes for the Golden State Warriors in the NBA regular season.",
+      "Conducted web scraping using Python to gather gaming data from the official NBA website.", "Preprocessed and cleaned the data, adding additional features for analysis.",
+      "Utilized Numpy, Pandas, and Matplotlib for data analysis and visualization.",
+      "Built machine learning models, including logistic regression and decision trees, to analyze and model NBA statistics.", "Presented insights derived from the analysis to demonstrate the application of data analytics in the NBA domain."
     ],
-    "keywords": ["NBA", "Golden State Warriors", "Game Prediction"],
+    "keywords": ["Web scraping", "Data preprocessing", "Data cleaning", "Python", "Numpy", "Pandas", "Matplotlib", "Machine learning", "Logistic regression", "Decision trees", "Data analysis", "Data visualization", "Game Prediction"],
     "link": "https://drive.google.com/file/d/1EGGuWsQZdI6PBZwJL-1pTGq43q-kf37K/view?usp=sharing"
   },
   {
     "id": uuidv4(),
-    "image": "Turing-chat-bot",
+    "image": TuringChatBot,
     "title": "Intelligent chatbot",
     "info": [
       "A intelligent chatbot web application with graphical interface. ", "Interact By calling speech-related API. Enabled user authentication and implemented UI using Python’s tkinter package.", "Used BaiduAI’s API for Speech Recognition and Synthesis to enable audio interaction with chatbot"
@@ -283,7 +305,7 @@ export const projects = [
   },
   {
     "id": uuidv4(),
-    "image": "On-demand-music-search",
+    "image": OnDemandMusicSearch,
     "title": "On-demand music search website",
     "info": [
       "A music website provides multiple features like songs collection, search, streaming and personalized recommendation.", "Music recommender system Developed with Python", "Django for back-end; MySQL for data persistent storage;  Collaborative Filtering Algorithm for songs recommendation."
