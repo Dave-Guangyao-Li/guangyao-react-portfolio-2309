@@ -119,15 +119,39 @@ export const tours = [
 export const projects = [
   {
     "id": uuidv4(),
-    "image": "DrLambda",
+    "image": DrLambda,
     "title": "DrLambda Platform",
     "info": [
       "Led front-end development for GenAI tool for transforming documents, images, and links into slides, videos, and social media posts.",
       "Implemented responsive card and list layouts, customizable themes, and a user-friendly chatbot to enhance content creation process.",
       "Focused on intuitive, user-centered design, driving positive feedback and increased platform engagement."
     ],
-    "keywords": ["GenAI", "LLM", "React", "Next.JS", "CSS", "TypeScript", "Responsive Design", "Figma"],
+    "keywords": ["GenAI", "LLM", "React", "Next.JS", "CSS", "TypeScript", "Responsive Design", "Figma", "EdTech"],
     "link": "https://drlambda.ai/"
+  },
+  {
+    "id": uuidv4(),
+    "image": medicalCodingCopilot,
+    "title": "MediCode AI Copilot Chatbot",
+    "info": [
+      "Developed an AI copilot chatbot for medical coding.",
+      "AI copilot for medical coders to minimize errors, maximize efficiency, and boost revenue of healthcare provider office. Helps the healthcare professional determine the most accurate and comprehensive set of codes, so the claim made to the payer is not denied and to boot revenue.",
+      "Built with JavaScript, React, TailwindCSS, MaterialUI, integrated with GPT-4 chat completion API empowered with well-designed prompt."
+    ],
+    "keywords": ["React", "JavaScript", "TailwindCSS", "MaterialUI", "Chat-GPT", "OpenAI", "Chatbot", "AI", "Medical"],
+    "link": "https://github.com/Dave-Guangyao-Li/medical-coding-copilot"
+  },
+  {
+    "id": uuidv4(),
+    "image": MSCIProject,
+    "title": "Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology",
+    "info": [
+      "Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow. Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms",
+      "Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%",
+      "Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection accuracy by 25% with fewer false alerts and lowering the cost of inspecting suspicious data."
+    ],
+    "keywords": ["Data Analytics", "Python", "Data Engineering", "Machine Learning", "Statistics", "Javascript", "Numpy", "Pandas"],
+    "link": "https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing"
   },
 
   {
@@ -142,18 +166,7 @@ export const projects = [
     "keywords": ["React", "HTML", "CSS", "JavaScript", "Responsive Design"],
     "link": "https://github.com/Dave-Guangyao-Li/guangyao-react-portfolio-2309"
   },
-  {
-    "id": uuidv4(),
-    "image": medicalCodingCopilot,
-    "title": "MediCode AI Copilot Chatbot",
-    "info": [
-      "Developed an AI copilot chatbot for medical coding.",
-      "AI copilot for medical coders to minimize errors, maximize efficiency, and boost revenue of healthcare provider office. Helps the healthcare professional determine the most accurate and comprehensive set of codes, so the claim made to the payer is not denied and to boot revenue.",
-      "Built with JavaScript, React, TailwindCSS, MaterialUI, integrated with GPT-4 chat completion API empowered with well-designed prompt."
-    ],
-    "keywords": ["React", "JavaScript", "TailwindCSS", "MaterialUI", "Chat-GPT", "OpenAI", "Chatbot", "AI", "Medical"],
-    "link": "https://github.com/Dave-Guangyao-Li/medical-coding-copilot"
-  },
+
   {
     "id": uuidv4(),
     "image": sentient,
@@ -174,18 +187,7 @@ export const projects = [
     "keywords": ["React.js", "RESTful API", "JavaScript", "LocalStorage", "HTML", "CSS", "Material UI"],
     "link": "https://github.com/Dave-Guangyao-Li/Hexagon-App"
   },
-  {
-    "id": uuidv4(),
-    "image": MSCIProject,
-    "title": "Enhancing MSCI’s Anomaly Detection Workflow by Integrating Machine Learning into Existing Financial Technology",
-    "info": [
-      "Anomaly Detection Workflow: Overhauled existing Anomalous Data Detection workflow. Improved overall precision by codebase profiling, incorporating new Data Cleaning methods and Machine Learning algorithms",
-      "Customizable ETL Module: Implemented a modularized and cacheable Data Preparation and Loading process module with Python, reducing execution time by 35% and increasing execution stability by 20%",
-      "Algorithm Evaluation Pipeline: Developed a solid Algorithms Analysis and Evaluation Pipeline, increasing detection accuracy by 25% with fewer false alerts and lowering the cost of inspecting suspicious data."
-    ],
-    "keywords": ["Data Analytics", "Python", "Data Engineering", "Machine Learning", "Statistics", "Javascript", "Numpy", "Pandas"],
-    "link": "https://drive.google.com/file/d/1aetZ8dsqWVH2tCFoEgzm6eGKeuVxPJ7m/view?usp=sharing"
-  },
+
   {
     "id": uuidv4(),
     "image": moviePitcherOpenAI,
