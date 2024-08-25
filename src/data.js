@@ -25,10 +25,11 @@ import LaggingEffectOfCovidVaccine from "./images/projects/lagging-effect-covid-
 import GamePredictionGSW from "./images/projects/game-prediction-GSW.png"
 import CarSalesSite from "./images/projects/car-sales-site.png"
 import DataAnalyticsDashboard from "./images/projects/data-analytics-dashboard.png"
+import DrLambda from "./images/projects/DrLambda.png"
 
 export const aboutInfo = [
   `My name is Guangyao Li. I'm a passionate front-end developer with expertise in Web development technologies like HTML, CSS, JavaScript, SQL, and React. I've successfully completed Web projects using frameworks such as NextJS, Django and Java SSM, showcasing my ability to deliver robust and dynamic applications.`,
-  `In addition to my proficiency in front-end development, I have a strong foundation in Python programming and experience in data engineering tasks. I'm well-versed in Python's scientific computing libraries like Numpy, Pandas, Matplotlib, Seaborn, and Scikit-learn, enabling me to handle complex data analysis and visualization tasks effectively.`, `Currently, I'm dedicated to expanding my knowledge in full-stack development. My goal is to become a developer who excels not only in solid programming skills but also in analytical thinking, enabling me to create immersive and user-centric experiences.`, `If you're seeking a front-end developer who is committed to crafting seamless user interfaces, leveraging data insights, and keeping up with the latest technologies, I'd love to connect and explore how I can contribute to your team's success.`]
+  `In addition to my proficiency in front-end development, I have a strong foundation in Python programming and experience in data engineering tasks. I'm well-versed in Python's scientific computing libraries like Numpy, Pandas, Matplotlib, Seaborn, and Scikit-learn, enabling me to handle complex data analysis and visualization tasks effectively.`, `Currently, I'm dedicated to expanding my knowledge in full-stack development. My goal is to become a developer who excels not only in solid programming skills but also in analytical thinking, enabling me to create immersive and user-centric experiences.`, `If you're seeking a developer who is committed to crafting seamless user interfaces, leveraging data insights, and keeping up with the latest technologies, I'd love to connect and explore how I can contribute to your team's success.`]
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -116,6 +117,19 @@ export const tours = [
 
 
 export const projects = [
+  {
+    "id": uuidv4(),
+    "image": "DrLambda",
+    "title": "DrLambda Platform",
+    "info": [
+      "Led front-end development for GenAI tool for transforming documents, images, and links into slides, videos, and social media posts.",
+      "Implemented responsive card and list layouts, customizable themes, and a user-friendly chatbot to enhance content creation process.",
+      "Focused on intuitive, user-centered design, driving positive feedback and increased platform engagement."
+    ],
+    "keywords": ["GenAI", "LLM", "React", "Next.JS", "CSS", "TypeScript", "Responsive Design", "Figma"],
+    "link": "https://drlambda.ai/"
+  },
+
   {
     "id": uuidv4(),
     "image": guangyaoReactPortfolio,
